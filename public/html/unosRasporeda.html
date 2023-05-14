@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/unosRasporeda.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <form>
+            <label>Naziv: </label>
+            <input type=text name="naziv" value="naziv" id="naziv"><br>
+            <label>Predmet: </label>
+            <input type=text name="predmet" value="predmet" id="predmet"><br>
+            <label>Grupa: </label>
+            <select name="grupa" id="grupa">
+            </select> <br>
+            <label>Tip: </label>
+            <select name="tip" id="tip">
+            </select> <br>
+            <label>Početak: </label>
+            <input type=number name="pocetak" value="0" step=".5" min="0" max="24" id="pocetak"><br>
+            <label>Kraj: </label>
+            <input type=number name="kraj" value="0" step=".5" min="0" max="24" id="kraj"><br>
+            <label>Dan: </label>
+            <select name="dan" id="dan">
+            </select> <br>
+            <button type="button" onclick="dodajAktivnost()">Dodaj aktivnost</button>
+            <p id="poruka"></p>
+        </form>
+        <script src="js/unosRasporeda.js"></script>
+    </body>
+</html>

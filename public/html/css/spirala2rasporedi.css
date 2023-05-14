@@ -1,0 +1,47 @@
+td{
+    background-color: #E6E6E6;
+    border: 0.5px solid black;
+    width: 0.5em;
+}
+
+tr{
+    height: 1.5em;
+}
+
+th{
+    font-weight: normal;
+    font-size: 50%;
+}
+
+.Dani{
+    text-align: right;
+}
+
+.Sati{
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.Termin{
+    background-color: #DEE6EF;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.Termin h1, h2{
+    text-align: center;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.Termin h1{
+    font-size: 1.2vh;
+}
+
+.Termin h2{
+    font-size: 0.8vh;
+    padding-bottom: 1vh;
+}

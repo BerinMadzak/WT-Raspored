@@ -1,0 +1,67 @@
+html{
+    background: linear-gradient(#B4C7DC, #D4DEEA) no-repeat;
+    height: 100%;
+}
+
+.Aktivnosti{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 5%;
+}
+
+.Trenutna{
+    grid-row: 1/4;
+    text-align: center;
+    background: url("../slike/Border1.png") no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.Ostala{
+    grid-row: 2/4;
+    text-align: center;
+    background: url("../slike/Border2.png") no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin-left: 2em;
+}
+
+h1, h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6389B8;
+}
+
+h1{
+    font-size: 300%;
+    margin:0px;
+}
+
+h1:last-of-type{
+    padding-bottom: 1em;
+}
+
+h2{
+    font-size: 150%;
+    padding-bottom: 2em;
+}
+
+p{
+    font-size: 150%;
+    margin:0px;
+}
+
+p:last-of-type{
+    padding-bottom: 1em;
+}
+
+.PageButtons{
+    position: fixed;
+    bottom:1em;
+    right:1em;
+}
+
+
+
+
+

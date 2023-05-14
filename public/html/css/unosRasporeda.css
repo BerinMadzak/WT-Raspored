@@ -1,0 +1,14 @@
+input, select{
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    width: 4em;
+}
+
+button{
+    width: 13%;
+}

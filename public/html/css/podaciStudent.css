@@ -1,0 +1,25 @@
+table{
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.Hover:hover{
+    border: 2px solid black;
+}
+
+.PageButtons{
+    position: fixed;
+    bottom:1em;
+    right:1em;
+}
